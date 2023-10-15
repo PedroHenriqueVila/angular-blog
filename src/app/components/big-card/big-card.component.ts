@@ -13,6 +13,8 @@ export class BigCardComponent {
   cardTitle: string =""
   @Input()
   cardDescription: string ="lasciate ogni esperanza voi ch'entrate"
+  @Input()
+  id: string="0"
 
 
   constructor() { }
